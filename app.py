@@ -10,12 +10,12 @@ model = pickle.load(open('flight_rf.pkl','rb'))
 app = Flask(__name__)
 
 @app.route('/')
-@cross_origin
+#@cross_origin
 def home():
     render_template('home.html')
 
 @app.route('/predict',methods=['GET','POST'])
-@cross_origin
+# @cross_origin
 def predict():
     if request.method =='POST':
         dep_time = request.form['Dep_Time']

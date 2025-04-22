@@ -1,4 +1,3 @@
-# market_application
 
 
 ## Project Overview

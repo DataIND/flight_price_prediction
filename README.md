@@ -2,7 +2,7 @@
 
 ## Project Overview
 Objective: To develop a flight prediction model that forecasts flight prices based on various factors, providing users with real-time price predictions.
-Data Analysis
+
 ## Factors Analyzed:
 Airline: Different airlines may have varying pricing strategies and fare structures.
 Source: The departure airport or city, which can influence flight prices based on demand and competition.
